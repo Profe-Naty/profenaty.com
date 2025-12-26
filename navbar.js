@@ -38,9 +38,12 @@ function generarItemsDropdown() {
         
         // Iterar sobre las categorías fijas
         categoriesData.categories.forEach(category => {
-            // Filtrar artefactos que pertenecen a esta categoría
+            // Saltar si la categoría está deshabilitada
+            if (category.enabled === false) return;
+            
+            // Filtrar artefactos que pertenecen a esta categoría Y estén habilitados
             const artefactosDeCategoria = artifactsData.artifacts.filter(
-                artifact => artifact.categoria === category.id
+                artifact => artifact.categoria === category.id && artifact.enabled !== false
             );
             
             // Solo crear el dropdown si hay artefactos en esta categoría

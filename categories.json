@@ -2,11 +2,13 @@
   "categories": [
     {
       "id": "macro",
-      "displayName": "Simuladores - Macro"
+      "displayName": "Simuladores - Macro",
+      "enabled": true
     },
     {
       "id": "progra1",
-      "displayName": "Progra 1"
+      "displayName": "Progra 1",
+      "enabled": false
     }
   ]
 }

@@ -7,7 +7,8 @@
       "title": "Simulador de Política Fiscal",
       "artifactId": "997d4b44-44c2-481e-81ba-db00d95673ff",
       "emoji": "📊",
-      "description": "Este simulador te permite explorar los efectos de diferentes políticas fiscales en la economía."
+      "description": "Este simulador te permite explorar los efectos de diferentes políticas fiscales en la economía.",
+      "enabled": true
     },
     {
       "id": "encaje-bancario",
@@ -16,7 +17,8 @@
       "title": "Simulador de Encaje Bancario",
       "artifactId": "d3c827d0-8cbd-478a-9f23-c26da4e8ea77",
       "emoji": "🏦",
-      "description": "Este simulador te permite explorar cómo el encaje bancario afecta la oferta de dinero en la economía."
+      "description": "Este simulador te permite explorar cómo el encaje bancario afecta la oferta de dinero en la economía.",
+      "enabled": true
     },
     {
       "id": "test-testing",
@@ -25,7 +27,8 @@
       "title": "Simulador de Testing",
       "artifactId": "d3c827d0-8cbd-478a-9f23-c26da4e8ea77",
       "emoji": "🧪",
-      "description": "Este simulador te permite explorar conceptos de testing en programación."
+      "description": "Este simulador te permite explorar conceptos de testing en programación.",
+      "enabled": false
     }
   ]
 }
